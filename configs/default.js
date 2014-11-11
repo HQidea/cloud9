@@ -66,7 +66,8 @@ var config = [
         debug: false,
         fsUrl: fsUrl,
         smithIo: {
-            port: port,
+            //port: port,
+            port: 443,
             prefix: "/smith.io-ide"
         },
         hosted: false,
